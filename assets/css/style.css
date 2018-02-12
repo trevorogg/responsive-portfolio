@@ -112,9 +112,9 @@ footer {
 /* sidebar */
 
 .sidebar {
-  float: right;
+  /* float: right; */
   width: 100%;
-  max-width: 270px;
+  /* max-width: 270px; */
   padding: 30px;
   margin-bottom: 20px;
   background: #fff;
@@ -149,7 +149,7 @@ h3,
 .main-section {
   float: left;
   width: 100%;
-  max-width: 650px;
+  /* max-width: 650px; */
   padding: 30px;
   margin: 0 0 40px;
   background: #fff;
@@ -237,3 +237,111 @@ input[type=submit] {
   background: #4aaaa5;
   border: 0 none;
 }
+
+@media screen and (max-width: 980px) and (min-width: 769px){
+  
+  /* Index */
+  .container{
+    width: 75%;
+  }
+
+
+ .main-section{
+  width: 55%;
+ }
+
+  .sidebar{
+    float:left;
+    width: 40%;
+    text-align: center;
+    margin-left: 5%;
+  }
+
+  .auth-image{
+    width: 100%;
+    margin-bottom: 20px;
+  }
+ 
+  .work{
+    width: 100%;
+  }
+
+}
+
+@media screen and (max-width:768px){
+  /* Index */
+  nav{
+    margin-right: 15px;
+  }
+
+  .container{
+    width: 95%;
+  }
+
+  .main-section{
+    width: 100%;
+ }
+
+  .auth-image{
+    width: 55%;
+  }
+
+  /* .container{
+    width: 95%;
+  } */
+
+  .sidebar{
+    width: 100%;
+    float: left;
+  }
+
+  /* Portfolio */
+  .work{
+    width: 45%;
+  }
+
+}
+
+@media screen and (max-width: 640px){
+
+  #masthead{
+    position: static;
+  }
+  
+  #main-container{
+    padding-top: 10px;
+  }
+
+  /* Index */
+  #logo{
+    width: 100%;
+  }
+
+  nav{
+    width: 100%;
+    text-align: center;
+  }
+  
+  .container{
+    width: 95%;
+  }
+  .auth-image{
+   width: 100%;
+ }
+ 
+  .main-section{
+    width: 100%;
+    margin-top: 40px;
+ }
+
+  #connect{
+    width: 100%;
+  }
+
+  /* Portfolio */
+  .work{
+    width: 100%;
+  }
+
+}
+
